@@ -1,0 +1,38 @@
+[
+{
+	Product_id: 1,
+	Product_name: “Gói cơ bản”,
+	Price_per_unit: 1200000
+	Description: “Dịch vụ đăng ký doanh nghiệp trọn gói”,
+	Type: “normal”,
+	Metadata: { bank_id: “ACB”, bank_name: “Ngân hàng Á Châu” }[] | { district_id: 11 }
+},
+{
+	Product_id: 2,
+	Product_name: “Con dấu”,
+	Price_per_unit: 200000
+	Description: “Một dấu tròn, một dấu chức danh”,
+	Type: “normal”,
+	Metadata: { bank_id: “ACB”, bank_name: “Ngân hàng Á Châu” }[] | { district_id: 11 }
+},
+{
+	Product_id: 3,
+	Product_name: “Tài khoản ngân hàng”,
+	Price_per_unit: 0
+	Description: “Dịch vụ đăng ký doanh nghiệp trọn gói”,
+	Type: “bank_account”,
+	Metadata: [
+{ bank_id: “ACB”, bank_name: “Ngân hàng Á Châu” },
+{ bank_id: “TCB”, bank_name: “Ngân hàng Techcombank” },
+…
+]
+},
+{
+	Product_id: 4,
+	Product_name: “Thuê văn phòng ảo”,
+	Price_per_unit: 1500000
+	Description: “Quận Ba Đình, Hà Nội”,
+	Type: “office_hosting”,
+	Metadata: { district_id: 11 }
+}
+]
